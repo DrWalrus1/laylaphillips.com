@@ -1,6 +1,5 @@
 <script setup>
 import HeaderComponent from '@components/HeaderComponent.vue'
-
 document.title = 'Layla Phillips'
 
 // defineProps
@@ -11,7 +10,9 @@ document.title = 'Layla Phillips'
 <template>
     <HeaderComponent/>
     <main>
-        <audio controls src="@public/Capybara.mp3" loop></audio>
+        <audio controls autoplay loop>
+            <source src="@public/Capybara.mp3" type="audio/mpeg">
+        </audio>
         <h1>This is my page for Layla Phillips ❤️</h1>
         <img src="@public/Layla.jpg" alt="Most Beautiful girl in the world" style="height: 1080px">
     </main>
