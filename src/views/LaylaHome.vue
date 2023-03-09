@@ -11,9 +11,9 @@ document.title = 'Layla Phillips'
 <template>
     <HeaderComponent/>
     <main>
-        <audio controls src="/Capybara.mp3" loop></audio>
+        <audio controls src="@public/Capybara.mp3" loop></audio>
         <h1>This is my page for Layla Phillips ❤️</h1>
-        <img src="@public/dist/Layla.jpg" alt="Most Beautiful girl in the world" style="height: 1080px">
+        <img src="@public/Layla.jpg" alt="Most Beautiful girl in the world" style="height: 1080px">
     </main>
 </template>
 
