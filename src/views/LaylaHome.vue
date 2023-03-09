@@ -1,13 +1,18 @@
 <script setup>
+import HeaderComponent from '../components/HeaderComponent.vue'
 document.title = "Layla Phillips"
+
+// defineProps
+
 </script>
 
+
 <template>
-    <head>
-        <title>Layla</title>
-    </head>
+    <HeaderComponent/>
     <main>
+        <audio controls src="../../public/Capybara.mp3" loop></audio>
         <h1>This is my page for Layla Phillips ❤️</h1>
+        <img src="../../dist/Layla.jpg" alt="Most Beautiful girl in the world" style="height: 1080px;">
     </main>
 </template>
 
