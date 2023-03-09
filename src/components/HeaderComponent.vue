@@ -6,7 +6,7 @@ import HelloWorld from './HelloWorld.vue'
 <template>
     <head>
         <meta charset="UTF-8">
-        <link rel="icon" href="@public/favicon.ico">
+        <link rel="icon" src="@public/favicon.ico">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Vite App</title>
     </head>
