@@ -11,10 +11,10 @@ document.title = 'Layla Phillips'
     <HeaderComponent/>
     <main>
         <audio controls autoplay loop>
-            <source src="@public/Capybara.mp3" type="audio/mpeg">
+            <source src="@assets/media/Capybara.mp3" type="audio/mpeg">
         </audio>
         <h1>This is my page for my best girl ❤️</h1>
-        <img src="@public/Layla.jpg" alt="Most Beautiful girl in the world" style="height: 1080px">
+        <img src="@assets/media/Layla.jpg" alt="Most Beautiful girl in the world" style="height: 1080px">
     </main>
 </template>
 
