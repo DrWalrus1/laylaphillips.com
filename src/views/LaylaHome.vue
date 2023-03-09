@@ -13,7 +13,7 @@ document.title = 'Layla Phillips'
     <main>
         <audio controls src="/Capybara.mp3" loop></audio>
         <h1>This is my page for Layla Phillips ❤️</h1>
-        <img src="../../dist/Layla.jpg" alt="Most Beautiful girl in the world" style="height: 1080px">
+        <img src="@public/dist/Layla.jpg" alt="Most Beautiful girl in the world" style="height: 1080px">
     </main>
 </template>
 

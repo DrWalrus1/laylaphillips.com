@@ -9,6 +9,7 @@ export default defineConfig({
     plugins: [vue()],
     resolve: {
         alias: {
+            '@public': fileURLToPath(new URL('./public', import.meta.url)),
             '@assets': fileURLToPath(new URL('./src/assets', import.meta.url)),
             '@components': fileURLToPath(new URL('./src/components', import.meta.url))
         }
