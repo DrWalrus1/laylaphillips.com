@@ -1,13 +1,14 @@
 <script setup>
+document.title = "Layla Phillips"
 </script>
 
 <template>
     <head>
         <title>Layla</title>
     </head>
-    <!-- <main>
+    <main>
         <h1>This is my page for Layla Phillips ❤️</h1>
-    </main> -->
+    </main>
 </template>
 
 <style scoped>

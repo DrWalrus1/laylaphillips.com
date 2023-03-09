@@ -1,4 +1,5 @@
 <script setup>
+document.title = "Home"
 import TheWelcome from '../components/TheWelcome.vue'
 </script>
 
